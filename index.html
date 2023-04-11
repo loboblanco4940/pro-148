@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene background="color:black">
+      
+          <a-camera position="0 8 15"></a-camera>
+
+        |   <!--------------------------Administrador de recursos--------------------------->
+
+            <a-assets timeout="10000">
+                <a-asset-item id="monster" src="./Modelos/Monster/scene.gltf"></a-asset-item>
+            </a-assets>
+
+            <a-assets timeout="10000">
+                <a-asset-item id="paisaje" src="./Modelos/Paisaje/scene.gltf"></a-asset-item>
+            </a-assets>
+
+            <!--------------------------Luces en la escena--------------------------->
+            <!-- Ambiental -->
+            <a-entity light = "type: ambient; intensity: 0.5"></a-entity>
+
+            <!--Bidireccional-->
+            <a-entity animation = "property: rotation; to: 0 360; easing: linear; loop: true; dur:6000"></a-entity>
+            <a-entity light = "type: directional; intensity: 0.9"></a-entity>
+
+            <!--------------------------MODELOS 3D--------------------------->
+            <a-entity>
+                <a-entity position="-5 2 0" rotation="0 55 0" gltf-model="#monster" shadow="cast: true"></a-entity>
+            </a-entity>
+
+            <a-entity>
+                <a-entity position="-5 2 0" rotation="0 55 0" gltf-model="#paisaje" shadow="cast: true"></a-entity>
+            </a-entity>            
+        </a-scene>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Arid rock terrain
+* source:	https://sketchfab.com/3d-models/arid-rock-terrain-e2ddb9e7ec1d46808fbb68e8d5db6f3d
+* author:	Lassi Kaukonen (https://sketchfab.com/thesidekick)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Arid rock terrain" (https://sketchfab.com/3d-models/arid-rock-terrain-e2ddb9e7ec1d46808fbb68e8d5db6f3d) by Lassi Kaukonen (https://sketchfab.com/thesidekick) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
